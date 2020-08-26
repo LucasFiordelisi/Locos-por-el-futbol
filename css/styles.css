@@ -1,0 +1,56 @@
+.navbar-custom {
+
+    background-color:white;
+    /*box-shadow: gray;*/
+    
+}
+.logoNav{
+    position: absolute;
+    top: -20px;
+    left: 0px;
+}
+
+/*******************************************************************************/
+.custom-toggler.navbar-toggler { /*cualquier elemento con las dos clases*/
+    border-color: rgb(209, 16, 16)
+} 
+
+.custom-toggler .navbar-toggler-icon { 
+    background-image: url( 
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(0, 0, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+}
+/***************************************************************/
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+    .jumbotron {
+      padding: 0;
+    }
+  
+  }
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .jumbotron {
+      padding: 0;
+    }
+   
+  }
+  
+  /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .jumbotron {
+      padding: 0;
+    }
+  
+  }
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    .jumbotron {
+      padding: 0;
+    }
+    
+  }
