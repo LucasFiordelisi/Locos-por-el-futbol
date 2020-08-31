@@ -8,8 +8,9 @@
 .logoNav{
     position: absolute;
     top: -20px;
-    left: 0px;
+    left: -20px;
 }
+
 
 /****************************personalizacion boton burguer***************************************************/
 .custom-toggler.navbar-toggler { /*cualquier elemento con las dos clases*/
@@ -90,6 +91,9 @@
   @media (max-width: 767px) {
     .jumbotron {
       padding: 0;
+    }
+    .navbar-nav{/* para el menu collapsable que se superponia con el logo*/
+      padding-top: 30px;
     }
 
     /******footer******/
