@@ -16,3 +16,13 @@
           </div>
         </a>
       </div>
+
+
+
+
+<a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+                  <img src="images2/1.jpg" width="300" height="300">
+              </a>
+
+
+

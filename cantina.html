@@ -6,12 +6,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+
+
 </head>
 <body>
 
   <header class="shadow-lg p-3 mb-5 bg-white rounded">
     <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html">
         <img src="images/logo3.png" width="150" height="150" alt="" loading="lazy" class="logoNav" >
       </a>
 
@@ -37,56 +41,57 @@
     </nav>
   </header>
 
-  <div  class="container">
-    <div class="jumbotron">
-     <img src="images/frente.jpg" alt="figura cualquiera" class="img-fluid">
+  <h1>Cantina</h1>
+  <section >
+   <div class="container">
+    <div class="row mb-4"><!--margin bottom 4/ clase de bootstrap-->
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
+
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
+
+      </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
+
+      </div>  
     </div>
-  </div>
-
-  <div class="linksAcceso">
-    <div class="container">
-      <div class="row filasLuc">
-        <div class="col-lg-6 col-md-6 col-12">
-          <a href="canchas.html"><div class="links"><img src="images/canchas11.jpg" alt="figura cualquiera" class="img-fluid"><span>Canchas</span></div></a>
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-12">
-          <span>Canchas descripcion:</span><br>
-            *****************************<br>
-            ************************<br>
-            ********************
-
-        </div>
+    <div class="row mb-4">
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
+ 
       </div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
 
-      <div class="row filasLuc">
-        <div class="col-lg-6 col-md-6 col-12 order-md-1 order-2">
-          <span>Cantina descripcion:</span><br>
-            *****************************<br>
-            ************************<br>
-            ********************
-
-        </div>
-
-        <div class="col-lg-6 col-md-6 col-12 order-md-2 order-1">
-          <a href="cantina.html"><div class="links"><img src="images/cantina1.jpg" alt="figura cualquiera" class="img-fluid" ><span>Cantina</span></div></a>
-        </div>
       </div>
-      <div class="row filasLuc">
-        <div class="col-md-12">
-          <a href="https://goo.gl/maps/j7FaPKW2YBWDzmSu8">
-            <div class="links">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.5749890045086!2d-68.85619008511047!3d-32.88296277599677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e08fe234793b7%3A0x5fb3e8e05a4b3f05!2sMart%C3%ADnez%20de%20Rozas%201555%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1597356571072!5m2!1ses!2sar" width="100%" height="250px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-              <span>Ubicacion</span>
-            </div>
-          </a>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-12">
+        <a href="images2/1.jpg" data-toggle="lightbox" data-gallery="example-gallery">
+          <img class="mx-auto d-block " src="images2/1.jpg" width="300" height="300">
+        </a>
 
-        </div>
-      </div>
+      </div>  
+  
     </div>
-  </div>
 
 
+   </div><!--div container-->
+      
+  </section>
+
+  
 
   <footer class="foogral">
     <div class="container">
@@ -130,6 +135,14 @@
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
+  <script >
+    $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+  </script>
+  
 </body>
 </html>

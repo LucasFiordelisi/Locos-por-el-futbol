@@ -46,6 +46,7 @@
 .filasLuc{
   padding-top:20px ;
 }
+/************pagina canchas***************/
 
 
 /***footer********/
@@ -84,6 +85,9 @@
     .jumbotron {
       padding: 0;
     }
+    .navbar-nav{/* para el menu collapsable que se superponia con el logo*/
+      padding-top: 30px;
+    }
   
   }
   
@@ -95,6 +99,10 @@
     .navbar-nav{/* para el menu collapsable que se superponia con el logo*/
       padding-top: 30px;
     }
+    .filasLuc{
+      text-align: center;
+    }
+    
 
     /******footer******/
   .foogral div {
